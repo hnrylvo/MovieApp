@@ -1,6 +1,7 @@
 package com.hnrylvo.movies.ux.home
 
 import MovieCard
+import MovieSkeletonCard
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -45,11 +46,23 @@ fun Home(viewModel: HomeViewModel) {
     val scope = rememberCoroutineScope()
 
     Box(
-        modifier = Modifier.fillMaxSize().background(AppTheme.colorScheme.background),
+        modifier = Modifier
+            .fillMaxSize()
+            .background(AppTheme.colorScheme.background),
         contentAlignment = Alignment.Center
     ) {
         if (isLoading) {
-            CircularProgressIndicator()
+            LazyVerticalGrid(
+                columns = GridCells.Adaptive(160.dp),
+                modifier = Modifier.fillMaxSize(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+                contentPadding = PaddingValues(12.dp)
+            ) {
+                items(10) {
+                    MovieSkeletonCard()
+                }
+            }
         } else {
             Column(
                 modifier = Modifier.fillMaxSize(),
@@ -73,7 +86,6 @@ fun Home(viewModel: HomeViewModel) {
         )
     }
 }
-
 
 @Composable
 fun MovieList(
