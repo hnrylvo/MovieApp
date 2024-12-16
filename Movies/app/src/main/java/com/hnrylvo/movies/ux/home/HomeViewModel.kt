@@ -6,9 +6,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.hnrylvo.inmomarket.data.utils.onFailure
 import com.hnrylvo.inmomarket.data.utils.onSuccess
-import com.hnrylvo.movies.data.networking.modal.response.MovieResponse
-import com.hnrylvo.movies.data.repository.MovieRepository
-import com.hnrylvo.movies.data.utils.ApiConstants
+import com.hnrylvo.data.data.networking.modal.response.MovieResponse
+import com.hnrylvo.data.data.repository.MovieRepository
+import com.hnrylvo.data.data.utils.ApiConstants
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.collectLatest

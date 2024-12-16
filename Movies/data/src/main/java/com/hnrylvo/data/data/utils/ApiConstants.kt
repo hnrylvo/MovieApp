@@ -1,4 +1,4 @@
-package com.hnrylvo.movies.data.utils
+package com.hnrylvo.data.data.utils
 
 object ApiConstants {
     const val BASE_URL = "https://api.themoviedb.org/3/"

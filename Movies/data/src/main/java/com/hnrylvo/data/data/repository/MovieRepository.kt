@@ -1,6 +1,6 @@
-package com.hnrylvo.movies.data.repository
+package com.hnrylvo.data.data.repository
 
-import com.hnrylvo.movies.data.networking.ApiClient
+import com.hnrylvo.data.data.networking.ApiClient
 
 class MovieRepository : BaseRepository() {
     private val apiService = ApiClient.apiService

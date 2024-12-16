@@ -23,7 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.hnrylvo.movies.data.utils.ApiConstants
+import com.hnrylvo.data.data.utils.ApiConstants
 import com.hnrylvo.movies.ui.compose.HomeHeader
 import com.hnrylvo.movies.ui.theme.AppTheme
 import kotlinx.coroutines.launch

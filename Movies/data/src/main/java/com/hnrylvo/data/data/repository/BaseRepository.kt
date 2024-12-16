@@ -1,4 +1,4 @@
-package com.hnrylvo.movies.data.repository
+package com.hnrylvo.data.data.repository
 
 import com.hnrylvo.inmomarket.data.utils.ApiResult
 import com.hnrylvo.inmomarket.data.utils.Failure

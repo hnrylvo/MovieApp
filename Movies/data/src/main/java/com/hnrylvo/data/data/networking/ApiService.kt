@@ -1,6 +1,6 @@
-package com.hnrylvo.movies.data.networking
+package com.hnrylvo.data.data.networking
 
-import com.hnrylvo.movies.data.networking.modal.response.GetMoviesResponse
+import com.hnrylvo.data.data.networking.modal.response.GetMoviesResponse
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query

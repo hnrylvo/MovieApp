@@ -1,4 +1,4 @@
-package com.hnrylvo.movies.data.networking.modal.response
+package com.hnrylvo.data.data.networking.modal.response
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,6 +1,6 @@
-package com.hnrylvo.movies.data.networking
+package com.hnrylvo.data.data.networking
 
-import com.hnrylvo.movies.data.utils.ApiConstants
+import com.hnrylvo.data.data.utils.ApiConstants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
